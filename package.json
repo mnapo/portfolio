@@ -1,5 +1,5 @@
 {
-  "name": "lucero-web",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -51,6 +51,7 @@
     "react-day-picker": "^8.10.1",
     "react-dom": "^18",
     "react-hook-form": "^7.51.4",
+    "react-markdown": "^10.1.0",
     "react-resizable-panels": "^2.0.19",
     "sonner": "^1.4.41",
     "tailwind-merge": "^2.3.0",
