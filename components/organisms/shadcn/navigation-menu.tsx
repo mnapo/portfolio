@@ -71,7 +71,7 @@ export function NavigationMenuDemo() {
                     href="/">
                     <AspectRatio ratio={16 / 9}>
                       <Image
-                        src="https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80"
+                        src="https://plus.unsplash.com/premium_photo-1677402408071-232d1c3c3787?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Image"
                         fill
                         className="rounded-md object-cover h-6 w-6"
