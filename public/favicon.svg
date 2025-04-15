@@ -3,7 +3,6 @@
     viewBox="0 0 24 24"
     width="1em"
     height="1em"
-    {...props}
 >
     <g
         fill="none"
