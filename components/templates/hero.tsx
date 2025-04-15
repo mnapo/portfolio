@@ -1,6 +1,7 @@
-import { Button } from '@/components/molecules/shadcn/button'
+import {Button} from '@/components/molecules/shadcn/button'
 import Image from 'next/image'
-import { AspectRatio } from '../molecules/shadcn/aspect-ratio'
+import {AspectRatio} from '../molecules/shadcn/aspect-ratio'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -15,7 +16,7 @@ export default function Hero() {
               Aptitudes, estudios y experiencia laboral.
             </p>
             <div className="flex items-center space-x-4">
-              <Button variant="default">Visitar</Button>
+              <Button variant="default" ><Link href="/cv">Visitar</Link></Button>
             </div>
           </div>
           <div className="hidden lg:block">
