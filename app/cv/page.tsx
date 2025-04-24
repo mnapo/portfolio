@@ -1,5 +1,6 @@
 import type {Metadata} from 'next'
 import CV_Body from '@/components/templates/cv-body'
+import CV_Downloads from '@/components/templates/cv-downloads'
 
 export const metadata: Metadata = {
   title: "Porfolio Personal • Currículum",
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
+      <CV_Downloads></CV_Downloads>
       <CV_Body></CV_Body>
     </>
   )

@@ -62,3 +62,9 @@
   height: 15vw;
   width: 15vw;
 }
+.cv-downloads{
+  text-align: center;
+}
+.btn-download{
+  margin-right: 1vw;
+}
