@@ -68,7 +68,7 @@ export function NavigationMenuDemo() {
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                    href="/">
+                    href="https://github.com/mnapo/portfolio">
                     <AspectRatio ratio={16 / 9}>
                       <Image
                         src="https://plus.unsplash.com/premium_photo-1677402408071-232d1c3c3787?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -84,13 +84,13 @@ export function NavigationMenuDemo() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/" title="Lunatic">
+              <ListItem href="https://github.com/mnapo/lunatic" title="Lunatic">
                 LLM en Lua
               </ListItem>
-              <ListItem href="/" title="Lucero">
+              <ListItem href="https://github.com/mnapo/lucero" title="Lucero">
                 Framework para Solar2D SDK
               </ListItem>
-              <ListItem href="/" title="Guías">
+              <ListItem href="https://github.com/mnapo/ifts24-guias-primer-cuatrimestre" title="Guías">
                 Ejercicios resueltos de la carrera
               </ListItem>
             </ul>
@@ -109,7 +109,7 @@ export function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href="/cv" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>Currículum</NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
