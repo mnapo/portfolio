@@ -57,3 +57,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.avatar{
+  height: 15vw;
+  width: 15vw;
+}
