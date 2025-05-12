@@ -10,6 +10,11 @@ export default function CV_Body() {
     { "title": "Ingeniería Electrónica"; "subtitle": "UBA (CBC aprobado, Primer año 70%)"; "description": "CABA 2017-2020"},
     { "title": "Tecnicatura Superior en Ciencia de Datos e IA"; "subtitle": "Instituto de Formación Técnica Superior Nº28"; "description": "CABA 2025"}
   ];
+  const courses: {title: string; subtitle: string; description: string}[] = [
+    { "title": "Inglés B1"; "subtitle": "Liceo Cultural Británico"; "description": "CABA 2005-2013"},
+    { "title": "Desarrollo Full Stack en JS"; "subtitle": "freeCodeCamp.org"; "description": "2019-2019"},
+    { "title": "Análisis de Datos en Python"; "subtitle": "freeCodeCamp.org"; "description": "2024-2024"}
+  ];
   const experience: { title: string; subtitle: string; description: string }[] = [];
   return (
     <section className="py-1">
