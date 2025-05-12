@@ -1,7 +1,14 @@
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/molecules/shadcn/avatar"
 
 export default function CV_Body() {
-  const studies: { title: string; subtitle: string; description: string }[] = [];
+  const studies: {title: string; subtitle: string; description: string}[] = [
+    { "title": "Bachiller"; "subtitle": "Instituto Colegio Corazón de Jesús"; "description": "1996-2012"},
+    { "title": "Tecnicatura en Reparación de PC I"; "subtitle": "Centro de Formación Profesional Nº28 Suterh"; "description": "2010-2010"},
+    { "title": "Tecnicatura en Reparación de PC II"; "subtitle": "Centro de Formación Profesional Nº28 Suterh"; "description": "2011-2011"},
+    { "title": "Diseño Web en HTML y CSS"; "subtitle": "Centro de Formación Profesional Nº28 Suterh"; "description": "2011-2012"},
+    { "title": "Medicina"; "subtitle": "UBA (CBC aprobado, Primer año 80%)"; "description": "2013-2016"},
+    { "title": "Ingeniería Electrónica"; "subtitle": "UBA (CBC aprobado, Primer año 70%)"; "description": "2017-2020"}
+  ];
   const experience: { title: string; subtitle: string; description: string }[] = [];
   return (
     <section className="py-1">
