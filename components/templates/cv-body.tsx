@@ -45,6 +45,21 @@ export default function CV_Body() {
       </section>
       <section className="py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <h1>Idiomas y Cursos</h1>
+          <hr></hr>
+          {courses.map((course)=>{
+            return(
+              <div>
+                <h1>{course.title}</h1>
+                <h2>{course.subtitle}</h2>
+                <h3>{course.description}</h3>
+              </div>
+            )
+          })}
+        </div>
+      </section>
+      <section className="py-4">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <h1>Experiencia laboral</h1>
           <hr></hr>
         </div>
