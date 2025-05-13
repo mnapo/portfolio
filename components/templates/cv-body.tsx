@@ -16,6 +16,7 @@ export default function CV_Body() {
     { "title": "Análisis de Datos en Python", "subtitle": "freeCodeCamp.org", "description": "2024-2024"}
   ];
   const experience: { title: string; subtitle: string; description: string }[] = [];
+
   return (
     <section className="py-1">
       <div className="container">
@@ -31,6 +32,15 @@ export default function CV_Body() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <h1>Estudios</h1>
           <hr></hr>
+          {studies.map((study)=>{
+            return(
+              <div>
+                <h1>{study.title}</h1>
+                <h2>{study.subtitle}</h2>
+                <h3>{study.description}</h3>
+              </div>
+            )
+          })}
         </div>
       </section>
       <section className="py-4">
