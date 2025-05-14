@@ -1,22 +1,22 @@
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/molecules/shadcn/avatar"
 
-export default function CV_Body() {
-  const studies: {title: string; subtitle: string; description: string}[] = [
-    { "title": "Bachiller", "subtitle": "Instituto Colegio Corazón de Jesús", "description": "1996-2012"},
-    { "title": "Tecnicatura en Reparación de PC I", "subtitle": "Centro de Formación Profesional Nº28", "description": "Suterh 2010-2010"},
-    { "title": "Tecnicatura en Reparación de PC II", "subtitle": "Centro de Formación Profesional Nº28 Suterh", "description": "Suterh 2011-2011"},
-    { "title": "Diseño Web en HTML y CSS", "subtitle": "Centro de Formación Profesional Nº28 Suterh", "description": "Suterh 2011-2012"},
-    { "title": "Medicina", "subtitle": "UBA (CBC aprobado, Primer año 80%)", "description": "CABA 2013-2016"},
-    { "title": "Ingeniería Electrónica", "subtitle": "UBA (CBC aprobado, Primer año 70%)", "description": "CABA 2017-2020"},
-    { "title": "Tecnicatura Superior en Ciencia de Datos e IA", "subtitle": "Instituto de Formación Técnica Superior Nº28", "description": "CABA 2025"}
-  ];
-  const courses: {title: string; subtitle: string; description: string}[] = [
-    { "title": "Inglés B1", "subtitle": "Liceo Cultural Británico", "description": "CABA 2005-2013"},
-    { "title": "Desarrollo Full Stack en JS", "subtitle": "freeCodeCamp.org", "description": "2019-2019"},
-    { "title": "Análisis de Datos en Python", "subtitle": "freeCodeCamp.org", "description": "2024-2024"}
-  ];
-  const experience: { title: string; subtitle: string; description: string }[] = [];
+const studies: {title: string; subtitle: string; description: string}[] = [
+  { title: "Bachiller", subtitle: "Instituto Colegio Corazón de Jesús", description: "1996-2012"},
+  { title: "Tecnicatura en Reparación de PC I", subtitle: "Centro de Formación Profesional Nº28", description: "Suterh 2010-2010"},
+  { title: "Tecnicatura en Reparación de PC II", subtitle: "Centro de Formación Profesional Nº28 Suterh", description: "Suterh 2011-2011"},
+  { title: "Diseño Web en HTML y CSS", subtitle: "Centro de Formación Profesional Nº28 Suterh", description: "Suterh 2011-2012"},
+  { title: "Medicina", subtitle: "UBA (CBC aprobado, Primer año 80%)", description: "CABA 2013-2016"},
+  { title: "Ingeniería Electrónica", subtitle: "UBA (CBC aprobado, Primer año 70%)", description: "CABA 2017-2020"},
+  { title: "Tecnicatura Superior en Ciencia de Datos e IA", subtitle: "Instituto de Formación Técnica Superior Nº28", description: "CABA 2025"}
+];
+const courses: {title: string; subtitle: string; description: string}[] = [
+  { title: "Inglés B1", subtitle: "Liceo Cultural Británico", description: "CABA 2005-2013"},
+  { title: "Desarrollo Full Stack en JS", subtitle: "freeCodeCamp.org", description: "2019-2019"},
+  { title: "Análisis de Datos en Python", subtitle: "freeCodeCamp.org", description: "2024-2024"}
+];
+const experience: { title: string; subtitle: string; description: string }[] = [];
 
+export default function CV_Body() {
   return (
     <section className="py-1">
       <div className="container">
