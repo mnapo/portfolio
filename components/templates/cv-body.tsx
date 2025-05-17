@@ -13,7 +13,7 @@ const courses: {title: string; subtitle: string; description: string}[] = [
   { title: "Medicina", subtitle: "UBA (CBC aprobado, Primer año 80%)", description: "CABA 2013-2016"},
   { title: "Bioingeniería", subtitle: "UBA (CBC aprobado, Primer año 70%)", description: "CABA 2017-2020"}
 ];
-const experience: { title: string; subtitle: string; description: string }[] = [
+const jobs: { title: string; subtitle: string; description: string }[] = [
   { title: "ZoHo", subtitle: "Desarrollo y Soporte Técnico", description: "Remoto 2022-2023"},
   { title: "Freelancing", subtitle: "Desarrollo de aplicaciones - Consultoría", description: "Remoto 2017-actualidad"},
   { title: "Clases de apoyo para secundario", subtitle: "Fisicoquímica y matemática", description: "CABA 2017-actualidad"}
@@ -63,8 +63,17 @@ export default function CV_Body() {
       </section>
       <section className="py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <h1>Experiencia laboral</h1>
+          <h1>Experiencia Profesional</h1>
           <hr></hr>
+          {jobs.map((job)=>{
+            return(
+              <div>
+                <h1>{job.title}</h1>
+                <h2>{job.subtitle}</h2>
+                <h3>{job.description}</h3>
+              </div>
+            )
+          })}
         </div>
       </section>
     </section>
