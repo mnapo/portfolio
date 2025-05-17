@@ -1,6 +1,6 @@
 # Portfolio personal
-### Versión previa: 
-https://github.com/mnapo/mnapo.github.io
+## Demo
+https://portfolio-mnapos-projects.vercel.app
 
 ## Arrancar servidor
 * pnpm dev
@@ -10,8 +10,15 @@ https://github.com/mnapo/mnapo.github.io
 
 ---
 
+## Agradecimientos
+
 ### Versión inicial clonada desde:
 https://github.com/kpedrok/nextjs-atomic-shadcn-ui-landing-page.git
 
 ### Ícono perfil:
 https://opensourcesvgicons.com
+
+---
+
+## Versión anterior:
+https://github.com/mnapo/mnapo.github.io
