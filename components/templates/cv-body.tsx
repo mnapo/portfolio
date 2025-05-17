@@ -35,7 +35,7 @@ export default function CV_Body() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <h1>Estudios</h1>
           <hr></hr>
-          {studies.map((study)=>{
+          {studies.map(study=>{
             return(
               <div>
                 <h1>{study.title}</h1>
@@ -50,7 +50,7 @@ export default function CV_Body() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <h1>Idiomas y Cursos</h1>
           <hr></hr>
-          {courses.map((course)=>{
+          {courses.map(course=>{
             return(
               <div>
                 <h1>{course.title}</h1>
@@ -65,7 +65,7 @@ export default function CV_Body() {
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <h1>Experiencia Profesional</h1>
           <hr></hr>
-          {jobs.map((job)=>{
+          {jobs.map(job=>{
             return(
               <div>
                 <h1>{job.title}</h1>
