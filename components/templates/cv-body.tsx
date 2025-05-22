@@ -28,7 +28,7 @@ export default function CV_Body() {
           <AvatarFallback>Foto Perfil</AvatarFallback>
         </Avatar>
         <h1>Matías Nápoli</h1>
-        <h2>Estudiante de Tecnicatura Superior en Ciencia de Datos</h2>
+        <h2>Estudiante de Tecnicatura Superior en Ciencia de Datos e IA</h2>
         <h2>DNI 38.625.566</h2>
       </div>
       <section className="py-4">
