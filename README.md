@@ -22,3 +22,6 @@ https://opensourcesvgicons.com
 
 ## Versión anterior:
 https://github.com/mnapo/mnapo.github.io
+
+## Versión nueva:
+https://github.com/mnapo/personal-porfolio
